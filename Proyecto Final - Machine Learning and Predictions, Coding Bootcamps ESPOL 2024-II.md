@@ -1,6 +1,5 @@
   
-Detección de Reportes Fraudulentos de   
-Averías de Vehículos
+Detección de Reportes Fraudulentos de Averías de Vehículos
 
 **Descripción del Proyecto**
 
