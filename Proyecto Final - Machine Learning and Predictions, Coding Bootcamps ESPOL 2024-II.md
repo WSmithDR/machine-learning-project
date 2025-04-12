@@ -1,13 +1,13 @@
   
-Detección de Reportes Fraudulentos de Averías de Vehículos
+# Detección de Reportes Fraudulentos de Averías de Vehículos
 
-**Descripción del Proyecto**
+## Descripción del Proyecto
 
-**Introducción**
+### Introducción
 
 La empresa de seguros de vehículos “KLEY S.A.” lo ha contratado a usted y a **su equipo de analitica conformado por 3 científicos de datos (incluyéndolo a usted)** para desarrollar un modelo de machine learning capaz de identificar reportes fraudulentos de averías de vehículos. Las aseguradoras reciben numerosos reportes de averías y reparaciones de vehículos diariamente. Aunque la mayoría de los reportes son legítimos, un pequeño porcentaje de ellos son fraudulentos, donde los clientes exageran los daños o presentan reclamaciones falsas para obtener mayores pagos. Detectar estas transacciones fraudulentas es crucial para la sostenibilidad financiera de las aseguradoras. La empresa “KLEY S.A.” enfrenta pérdidas significativas debido a estos reportes fraudulentos y la misión de su equipo de científicos de datos será construir una solución que ayude a mitigar estos costos utilizando Inteligencia Artificial. El rol de su equipo incluirá desde el análisis y tratamiento de los datos hasta la implementación y evaluación de modelos de ML, pasando por la comunicación de sus resultados. Para ello, la empresa le ha proporcionado un conjunto de datos en donde han detectado manualmente los reportes fraudulentos.
 
-**Descripción del Dataset**
+### Descripción del Dataset
 
 La empresa le ha proporcionado un conjunto de datos con las siguientes columnas:
 
@@ -32,14 +32,14 @@ La empresa le ha proporcionado un conjunto de datos con las siguientes columnas:
 * **fecha\_reparacion**: Fecha en la que se reparó el daño  
 * **fraude**: Variable objetivo que indica si la reparación fue un fraude o no
 
-**Modelo Baseline**
+### Modelo Baseline
 
 Su equipo cuenta con un modelo baseline basado en Random Forest y un procesamiento de datos simple, elaborado por la aseguradora de vehículos. Idealmente usted y su equipo deberán proveer un modelo que funcione mejor para detectar reportes fraudulentos. El modelo baseline se encuentra en [este enlace](https://drive.google.com/file/d/13Csb-4vOoQp8ECstK1ZywkrQtAzvuUeV/view?usp=sharing).
 
 **Evaluación del Modelo**  
 La métrica principal que utilizará para evaluar sus modelos resultantes será el balanced accuracy ([https://scikit-learn.org/stable/modules/generated/sklearn.metrics.balanced\_accuracy\_score.html](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.balanced_accuracy_score.html) ). Todos los equipos trabajando en el modelo solicitado contarán con un conjunto de datos de test, del cual no poseerán la variable target. Cada equipo contará con un repositorio en donde podrá colocar sus predicciones sobre el conjunto de test proporcionado. Todos los martes y viernes previo a las clases se actualizará la [tabla de posiciones](https://docs.google.com/spreadsheets/d/1ulcZv19fZ_0FMB_7yG6xy63zRAYu29n7/edit?usp=sharing&ouid=117258840351252297072&rtpof=true&sd=true) en donde podrá comparar el mejor rendimiento alcanzado por su equipo con los rendimientos obtenidos por otros equipos sobre el conjunto de test, como se muestra en la figura siguiente.
 
-![][image1]
+![image1][image1]
 
 Adicionalmente, su equipo es libre de determinar otras métricas de evaluación que muestren el rendimiento de sus modelos, especialmente a mostrar en la presentación final del proyecto.
 
@@ -54,7 +54,7 @@ Puntos extras: Los dos equipos con el mejor rendimiento **sobre los datos de tes
 
 Las descripciones de los entregables se publicarán semanalmente en este documento, que será regularmente actualizado con nueva información.
 
-**Entregable 1 (plazo de entrega 25/04/2024)**
+### Entregable 1 (plazo de entrega 25/04/2025)
 
 Suba a Aula Virtual un (1) Jupyter notebook con las siguientes tareas:
 
