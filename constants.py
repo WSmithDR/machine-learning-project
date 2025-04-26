@@ -1,7 +1,10 @@
 initial_dir = "./datos/1. inicial"
 tratados_dir = "./datos/2. tratados"
 converted_dir = "./datos/3. convertidos"
-predicted_dir = "./datos/4. predichos"
+separated_dir = "./datos/4. separados"
+scaled_dir = "./datos/5. escalados"
+predicted_dir = "./datos/6. predichos"
+models_dir = "./models"
 
 # Predictor variables
 predictor_vars = [
