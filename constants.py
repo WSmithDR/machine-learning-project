@@ -27,5 +27,6 @@ predictor_vars = [
     "color_r",
     "color_g",
     "color_b",
+    "tipo_vehiculo_te",
 ]
 target_var = "fraude"
