@@ -17,5 +17,6 @@ predictor_vars = [
     "costo_reparacion",
     "horas_reparacion",
     "marca_te",
+    "transmision_encoded",
 ]
 target_var = "fraude"
