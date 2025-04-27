@@ -18,5 +18,11 @@ predictor_vars = [
     "horas_reparacion",
     "marca_te",
     "transmision_encoded",
+    "fuel_petrol",
+    "fuel_diesel",
+    "fuel_electric",
+    "fuel_hybrid",
+    "fuel_plugin",
+    "fuel_other",
 ]
 target_var = "fraude"
