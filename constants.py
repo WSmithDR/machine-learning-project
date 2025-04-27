@@ -24,5 +24,8 @@ predictor_vars = [
     "fuel_hybrid",
     "fuel_plugin",
     "fuel_other",
+    "color_r",
+    "color_g",
+    "color_b",
 ]
 target_var = "fraude"
