@@ -16,15 +16,6 @@ predictor_vars = [
     "complejidad_reparacion",
     "costo_reparacion",
     "horas_reparacion",
-    "marca2_Audi",
-    "marca2_BMW",
-    "marca2_Citroen",
-    "marca2_Ford",
-    "marca2_Nissan",
-    "marca2_OTROS",
-    "marca2_Peugeot",
-    "marca2_Toyota",
-    "marca2_Vauxhall",
-    "marca2_Volkswagen",
+    "marca_te",
 ]
 target_var = "fraude"
