@@ -41,7 +41,7 @@ def load_model(model_name: str) -> Any:
 def save_multiple_models(models: dict) -> List[str]:
     saved_paths = []
     for model_name, model in models.items():
-        path = save_model(model, model_name, models_dir)
+        path = save_model(model, model_name)
         saved_paths.append(path)
     return saved_paths
 
@@ -49,5 +49,5 @@ def save_multiple_models(models: dict) -> List[str]:
 def load_multiple_models(model_names: List[str]) -> dict:
     models = {}
     for model_name in model_names:
-        models[model_name] = load_model(model_name, models_dir)
+        models[model_name] = load_model(model_name)
     return models
