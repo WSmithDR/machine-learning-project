@@ -1,7 +1,7 @@
 import os
 from joblib import dump, load
 from typing import Any, Optional, List
-from constants import models_dir, best_model_dir, optimized_model_dir
+from constants.directories import models_dir, best_model_dir, optimized_model_dir
 
 
 def save_model(model: Any, model_name: str, model_dir: str = models_dir) -> str:
