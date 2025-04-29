@@ -2,6 +2,9 @@ import os
 from joblib import dump, load
 from typing import Any, Optional, List
 from constants.directories import models_dir, best_model_dir, optimized_model_dir
+from IPython.display import Audio, display
+import winsound
+import numpy as np
 
 
 def save_model(model: Any, model_name: str, model_dir: str = models_dir) -> str:
@@ -138,3 +141,19 @@ def get_best_model_name():
 
     except Exception:
         return "unknown"
+
+
+def notify_optimization_complete(duration_ms=1000 * 6):
+    """Notifica que la optimización ha terminado usando diferentes métodos."""
+    try:
+        winsound.Beep(440, duration_ms)
+    except:
+        try:
+            frequency = 440
+            t = np.linspace(0, 1, 44100)
+            tone = np.sin(2 * np.pi * frequency * t)
+            display(Audio(tone, rate=44100, autoplay=True))
+        except:
+            print("\n" + "=" * 50)
+            print("🔔 ¡OPTIMIZACIÓN COMPLETADA! 🔔")
+            print("=" * 50 + "\n")
