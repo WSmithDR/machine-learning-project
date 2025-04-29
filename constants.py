@@ -7,6 +7,7 @@ separated_dir = "./datos/4. separados"
 scaled_dir = "./datos/5. escalados"
 predicted_dir = "./datos/6. predichos"
 models_dir = "./models"
+best_model_dir = "./best_model"
 
 # Predictor variables
 predictor_vars = [
