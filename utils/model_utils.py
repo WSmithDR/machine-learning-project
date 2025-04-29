@@ -91,17 +91,17 @@ def open_optimized_model() -> Any:
 
 
 def save_optimized_model(model: Any, model_name: str) -> str:
-    # Create best_model directory if it doesn't exist
+    # Create optimized_model directory if it doesn't exist
     if not os.path.exists(optimized_model_dir):
         os.makedirs(optimized_model_dir)
 
-    # Clear any existing models in the best_model directory
-    for file in os.listdir(best_model_dir):
+    # Clear any existing models in the optimized_model directory
+    for file in os.listdir(optimized_model_dir):
         if file.endswith(".joblib"):
-            os.remove(os.path.join(best_model_dir, file))
+            os.remove(os.path.join(optimized_model_dir, file))
 
-    # Save the new best model
-    return save_model(model, model_name, best_model_dir)
+    # Save the new optimized model
+    return save_model(model, model_name, optimized_model_dir)
 
 
 def save_multiple_models(models: dict) -> List[str]:
