@@ -10,6 +10,7 @@
 /datos/*
 # But keep 1. inicial
 !/datos/1. inicial/
+!/datos/6. predichos/
 
 
 #Ignore pycache
