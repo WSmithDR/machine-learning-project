@@ -1,0 +1,23 @@
+predictor_vars = [
+    "anio_registro",
+    "millas_recorridas",
+    "precio_vehiculo",
+    "num_asientos",
+    "num_puertas",
+    "complejidad_reparacion",
+    "costo_reparacion",
+    "horas_reparacion",
+    "marca_te",
+    "transmision_encoded",
+    "fuel_petrol",
+    "fuel_diesel",
+    "fuel_plugin",
+    "fuel_electric",
+    "fuel_hybrid",
+    "fuel_other",
+    "color_r",
+    "color_g",
+    "color_b",
+    "tipo_vehiculo_te",
+]
+target_var = "fraude"
